@@ -6,6 +6,8 @@
   </picture>
 </div>
 
+<p align="center"><strong>FULL-STACK DEVELOPER · UI/UX DESIGNER · AI ENTHUSIAST</strong></p>
+
 <div align="center">
   <a href="#selected-work">SELECTED WORK</a> &nbsp;·&nbsp;
   <a href="#design-case-studies">DESIGN CASE STUDIES</a> &nbsp;·&nbsp;
