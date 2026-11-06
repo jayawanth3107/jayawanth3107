@@ -54,10 +54,14 @@ A technician-focused app concept that brings daily service tasks, vehicle detail
 
 [Project documentation](./projects/ride-hub/README.md) · [UI/UX case study](./case-studies/ride-hub.md)
 
-### 03 — Cold Call Cloud
-**Cloud calling and CRM web platform**
+### 03 — ColdCall Cloud · SAMG Infotech
+**Software Development Internship · Company-owned team product**
 
-A Next.js-based web product focused on cloud-calling and customer relationship workflows. My work around this product has strengthened my interest in responsive web interfaces, product usability and full-stack engineering.
+Working with the SAMG Infotech team on a cloud-calling and CRM web product. My internship portfolio focus includes reviewing application workflows, evaluating interface usability, identifying UI issues and documenting improvement opportunities.
+
+- **Role:** Software Development Intern
+- **Project ownership:** SAMG Infotech / team-owned product
+- **Source code:** Private company repository; not published as an independent personal project.
 
 ## Design case studies
 
