@@ -53,7 +53,7 @@
  <g transform="rotate(17)"><circle cx="224" cy="0" r="5" fill="#B27CFF" filter="url(#smallGlow)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="29s" repeatCount="indefinite"/></circle></g>
 </g>
 <!-- Main isometric glass cube -->
-<g class="floatA" filter="url(#drop)"><g transform="translate(938 251)">
+<g filter="url(#drop)"><animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="6s" repeatCount="indefinite"/><g transform="translate(938 251)">
  <path d="M0 -112L112 -56L0 0L-112 -56Z" fill="url(#cubeTop)" stroke="#FFFFFF" stroke-opacity=".9" stroke-width="2"/>
  <path d="M-112 -56L0 0V128L-112 72Z" fill="url(#cubeLeft)" stroke="#A8C1FF" stroke-opacity=".78" stroke-width="2"/>
  <path d="M0 0L112 -56V72L0 128Z" fill="url(#cubeRight)" stroke="#D4B7FF" stroke-opacity=".8" stroke-width="2"/>
