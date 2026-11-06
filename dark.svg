@@ -1,110 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560" role="img" aria-labelledby="title desc">
-<title id="title">J. Jayawanth — Full-Stack Developer, UI/UX Designer and AI Enthusiast</title>
-<desc id="desc">A custom animated 3D developer portfolio banner with a glass crystal, orbiting rings, floating technology panels and a luminous perspective grid.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">J. Jayawanth — Full-stack developer, UI/UX designer and AI enthusiast</title>
+<desc id="desc">Animated portfolio hero with a luminous 3D geometric core, orbiting technology markers and a clean editorial introduction.</desc>
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060816"/><stop offset=".55" stop-color="#101B38"/><stop offset="1" stop-color="#060816"/></linearGradient>
- <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#55E5FF"/><stop offset=".5" stop-color="#8494FF"/><stop offset="1" stop-color="#C18BFF"><animate attributeName="stop-color" values="#C18BFF;#8494FF;#C18BFF" dur="8s" repeatCount="indefinite"/></stop></linearGradient>
- <linearGradient id="glassTop" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".95"/><stop offset="1" stop-color="#55E5FF" stop-opacity=".52"/></linearGradient>
- <linearGradient id="glassLeft" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8494FF" stop-opacity=".92"/><stop offset="1" stop-color="#172B62" stop-opacity=".96"/></linearGradient>
- <linearGradient id="glassRight" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C18BFF" stop-opacity=".93"/><stop offset="1" stop-color="#24214E" stop-opacity=".98"/></linearGradient>
- <radialGradient id="glow"><stop offset="0" stop-color="#55E5FF" stop-opacity=".34"/><stop offset=".5" stop-color="#8494FF" stop-opacity=".12"/><stop offset="1" stop-color="#8494FF" stop-opacity="0"/></radialGradient>
- <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#27365A" stroke-width="1" opacity=".33"/></pattern>
- <filter id="shadow" x="-40%" y="-40%" width="180%" height="200%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity=".5"/></filter>
- <filter id="glow" x="-120%" y="-120%" width="340%" height="340%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
- <style>
- .sans{font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Arial,sans-serif}
- .mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:1.4px}
- .float1{animation:float1 6s ease-in-out infinite}
- .float2{animation:float2 8s ease-in-out infinite}
- .softpulse{animation:softpulse 3.5s ease-in-out infinite}
- @keyframes float1{0%,100%{transform:translateY(0)}50%{transform:translateY(-13px)}}
- @keyframes float2{0%,100%{transform:translateY(0)}50%{transform:translateY(10px)}}
- @keyframes softpulse{0%,100%{opacity:.42}50%{opacity:1}}
- </style>
+  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070C18"/><stop offset="1" stop-color="#101D34"/></linearGradient>
+  <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#66E4D2"/><stop offset=".52" stop-color="#69C9FF"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+  <linearGradient id="cubeTop" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#69C9FF" stop-opacity=".78"/><stop offset="1" stop-color="#66E4D2" stop-opacity=".25"/></linearGradient>
+  <linearGradient id="cubeLeft" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#66E4D2" stop-opacity=".72"/><stop offset="1" stop-color="#69C9FF" stop-opacity=".18"/></linearGradient>
+  <linearGradient id="cubeRight" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A78BFA" stop-opacity=".7"/><stop offset="1" stop-color="#69C9FF" stop-opacity=".2"/></linearGradient>
+  <radialGradient id="halo"><stop offset="0" stop-color="#42D6D0" stop-opacity=".3"/><stop offset=".65" stop-color="#69C9FF" stop-opacity=".08"/><stop offset="1" stop-color="#69C9FF" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#253A58" stroke-width="1" opacity=".5"/></pattern>
+  <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="8" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="clip"><rect x="8" y="8" width="1184" height="404" rx="26"/></clipPath>
 </defs>
-<rect width="1280" height="560" rx="30" fill="url(#bg)"/>
-<rect width="1280" height="560" rx="30" fill="url(#grid)"/>
-<circle cx="1010" cy="265" r="370" fill="url(#glow)"/>
-<circle cx="120" cy="25" r="260" fill="url(#glow)" opacity=".45"/>
-<rect x="20" y="20" width="1240" height="520" rx="25" fill="none" stroke="#27365A" stroke-width="1.5"/>
-
-<!-- Editorial identity block -->
-<g transform="translate(72 70)">
- <rect width="220" height="34" rx="17" fill="#111D38" stroke="#27365A"/>
- <circle cx="18" cy="17" r="4.5" fill="#64F0C4"><animate attributeName="r" values="3.5;5.5;3.5" dur="2.6s" repeatCount="indefinite"/></circle>
- <text x="32" y="21" class="mono" font-size="11" fill="#AAB6D0">SOFTWARE • DESIGN • AI</text>
+<g clip-path="url(#clip)" font-family="Inter,Segoe UI,Arial,sans-serif">
+  <rect x="8" y="8" width="1184" height="404" rx="26" fill="url(#background)"/>
+  <rect x="8" y="8" width="1184" height="404" fill="url(#grid)" opacity=".72"/>
+  <ellipse cx="920" cy="207" rx="300" ry="250" fill="url(#halo)"/>
+  <path d="M0 352C220 300 365 425 600 360S1000 270 1240 340" fill="none" stroke="#5D83AA" stroke-width="1" opacity=".16"/>
+  <path d="M690 0L1085 420" stroke="#5D83AA" stroke-width="1" opacity=".12"/>
+  <path d="M0 65H1200" stroke="#5D83AA" stroke-width="1" opacity=".14"/>
+  <rect x="58" y="48" width="42" height="4" rx="2" fill="url(#accentLine)"/>
+  <text x="114" y="55" font-size="12" font-weight="700" letter-spacing="2.1" fill="#A8B7D0">PERSONAL PORTFOLIO  /  SOFTWARE + DESIGN</text>
+  <text x="58" y="137" font-size="55" font-weight="760" letter-spacing="-2.5" fill="#F4F7FF">J. JAYAWANTH</text>
+  <text x="62" y="180" font-size="18" font-weight="720" letter-spacing="1.7" fill="#66E4D2">FULL-STACK DEVELOPER</text>
+  <text x="62" y="211" font-size="17" font-weight="650" letter-spacing="1.1" fill="#F4F7FF">UI/UX DESIGNER  <tspan fill="#A8B7D0">/</tspan>  AI ENTHUSIAST</text>
+  <text x="62" y="254" font-size="16" fill="#A8B7D0">I turn product ideas into thoughtful interfaces</text>
+  <text x="62" y="278" font-size="16" fill="#A8B7D0">and useful, well-structured software.</text>
+  <g transform="translate(62 316)">
+    <rect width="134" height="34" rx="17" fill="#152B43" stroke="#5D83AA" stroke-opacity=".42"/><circle cx="18" cy="17" r="4" fill="#66E4D2"/><text x="31" y="22" font-size="11" font-weight="750" letter-spacing="1.2" fill="#DDE8F7">ENGINEERING</text>
+    <rect x="145" width="145" height="34" rx="17" fill="#152B43" stroke="#5D83AA" stroke-opacity=".42"/><circle cx="163" cy="17" r="4" fill="#69C9FF"/><text x="176" y="22" font-size="11" font-weight="750" letter-spacing="1.2" fill="#DDE8F7">INTERFACE CRAFT</text>
+    <rect x="301" width="116" height="34" rx="17" fill="#152B43" stroke="#5D83AA" stroke-opacity=".42"/><circle cx="319" cy="17" r="4" fill="#A78BFA"/><text x="332" y="22" font-size="11" font-weight="750" letter-spacing="1.2" fill="#DDE8F7">APPLIED AI</text>
+  </g>
+  <path d="M58 376H532" stroke="#5D83AA" stroke-opacity=".36"/>
+  <text x="60" y="397" font-size="10" font-weight="700" letter-spacing="1.8" fill="#A8B7D0">COIMBATORE, INDIA</text>
+  <text x="532" y="397" text-anchor="end" font-size="10" font-weight="700" letter-spacing="1.8" fill="#A8B7D0">BUILD  /  DESIGN  /  EXPLORE</text>
+  <g transform="translate(900 208)">
+    <circle r="150" fill="url(#halo)" opacity=".9"/>
+    <g fill="none" stroke="#69C9FF" stroke-width="1.4" opacity=".48">
+      <ellipse rx="198" ry="82" transform="rotate(-26)"/>
+      <ellipse rx="178" ry="70" transform="rotate(42)" stroke="#A78BFA" stroke-opacity=".5"/>
+      <ellipse rx="146" ry="146" stroke-dasharray="3 12" opacity=".58"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="42s" repeatCount="indefinite"/></ellipse>
+    </g>
+    <g fill="none" stroke="url(#accentLine)" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="10 19" opacity=".9">
+      <ellipse rx="198" ry="82" transform="rotate(-26)"><animate attributeName="stroke-dashoffset" values="0;-220" dur="18s" repeatCount="indefinite"/></ellipse>
+    </g>
+    <g>
+      <circle cx="-169" cy="-75" r="5" fill="#66E4D2" filter="url(#glow)"><animate attributeName="r" values="4;7;4" dur="2.8s" repeatCount="indefinite"/></circle>
+      <circle cx="162" cy="83" r="5" fill="#A78BFA" filter="url(#glow)"><animate attributeName="r" values="5;8;5" dur="3.4s" repeatCount="indefinite"/></circle>
+      <circle cx="50" cy="-151" r="4" fill="#69C9FF"><animate attributeName="opacity" values=".3;1;.3" dur="2.2s" repeatCount="indefinite"/></circle>
+    </g>
+    <g><animateTransform attributeName="transform" type="translate" values="0 2;0 -9;0 2" dur="6s" repeatCount="indefinite"/>
+      <polygon points="0,-93 76,-49 0,-5 -76,-49" fill="url(#cubeTop)" stroke="#69C9FF" stroke-width="1.7"/>
+      <polygon points="-76,-49 0,-5 0,83 -76,39" fill="url(#cubeLeft)" stroke="#66E4D2" stroke-width="1.7"/>
+      <polygon points="0,-5 76,-49 76,39 0,83" fill="url(#cubeRight)" stroke="#A78BFA" stroke-width="1.7"/>
+      <path d="M0 -93V-5M-76 -49L0 -5L76 -49M0 -5V83" fill="none" stroke="#DDE8F7" stroke-opacity=".64" stroke-width="1.1"/>
+      <path d="M-52 -49L0 -19L52 -49M-52 -18L0 12L52 -18M-52 13L0 43L52 13" fill="none" stroke="#DDE8F7" stroke-opacity=".18" stroke-width="1"/>
+      <circle cx="0" cy="-5" r="5" fill="#F4F7FF" opacity=".88"/>
+    </g>
+    <g font-size="10" font-weight="760" letter-spacing="1.4">
+      <rect x="-202" y="-130" width="86" height="28" rx="14" fill="#152B43" stroke="#5D83AA" stroke-opacity=".54"/><text x="-159" y="-112" text-anchor="middle" fill="#DDE8F7">NEXT.JS</text>
+      <rect x="110" y="-133" width="92" height="28" rx="14" fill="#152B43" stroke="#5D83AA" stroke-opacity=".54"/><text x="156" y="-115" text-anchor="middle" fill="#DDE8F7">FLUTTER</text>
+      <rect x="126" y="127" width="82" height="28" rx="14" fill="#152B43" stroke="#5D83AA" stroke-opacity=".54"/><text x="167" y="145" text-anchor="middle" fill="#DDE8F7">AI / ML</text>
+      <rect x="-208" y="103" width="83" height="28" rx="14" fill="#152B43" stroke="#5D83AA" stroke-opacity=".54"/><text x="-166" y="121" text-anchor="middle" fill="#DDE8F7">PRODUCT</text>
+    </g>
+    <circle r="4" fill="#66E4D2"><animate attributeName="opacity" values=".4;1;.4" dur="1.9s" repeatCount="indefinite"/></circle>
+  </g>
+  <rect x="8" y="8" width="1184" height="404" rx="26" fill="none" stroke="#5D83AA" stroke-opacity=".42"/>
+  <rect x="-260" y="8" width="110" height="404" fill="url(#accentLine)" opacity=".1"><animate attributeName="x" values="-260;1300" dur="12s" repeatCount="indefinite"/></rect>
 </g>
-<g class="sans" fill="#F4F7FF">
- <text x="72" y="177" font-size="19" font-weight="700" letter-spacing="5" fill="#AAB6D0">HELLO, I'M</text>
- <text x="65" y="262" font-size="84" font-weight="850" letter-spacing="-4">JAYAWANTH<tspan fill="#55E5FF">.</tspan></text>
- <rect x="74" y="286" width="118" height="5" rx="2.5" fill="url(#neon)"/>
- <text x="72" y="335" font-size="25" font-weight="700">Designing interfaces.</text>
- <text x="72" y="369" font-size="25" font-weight="700" fill="#AAB6D0">Engineering experiences.</text>
- <text x="72" y="422" font-size="15" font-weight="600" letter-spacing="1.4" fill="#AAB6D0">FULL-STACK DEVELOPER  /  UI/UX DESIGNER  /  AI ENTHUSIAST</text>
- <text x="72" y="465" font-size="15" fill="#AAB6D0">Diploma in Computer Networking · PSG Polytechnic College</text>
- <text x="72" y="492" font-size="15" fill="#AAB6D0">Coimbatore, Tamil Nadu, India</text>
-</g>
-
-<!-- Three dimensional scene -->
-<circle cx="958" cy="271" r="224" fill="url(#glow)"><animate attributeName="opacity" values=".48;.9;.48" dur="7s" repeatCount="indefinite"/></circle>
-<!-- Perspective plane -->
-<g stroke="#55E5FF" stroke-width="1" fill="none" opacity=".4">
- <path d="M700 420H1275M724 447H1275M765 478H1275M817 510H1275"/>
- <path d="M784 380L680 560M854 380L808 560M924 380V560M994 380L1044 560M1064 380L1184 560M1134 380L1324 560"/>
-</g>
-<path d="M710 420H1260" stroke="url(#neon)" stroke-width="2" opacity=".7" filter="url(#glow)"/>
-<!-- Orbit rings -->
-<g transform="translate(962 266)" fill="none">
- <ellipse rx="214" ry="83" transform="rotate(-24)" stroke="#55E5FF" stroke-opacity=".7" stroke-width="1.7"/>
- <ellipse rx="180" ry="128" transform="rotate(58)" stroke="#8494FF" stroke-opacity=".63" stroke-width="1.5" stroke-dasharray="5 9"/>
- <ellipse rx="230" ry="62" transform="rotate(19)" stroke="#C18BFF" stroke-opacity=".67" stroke-width="1.6"/>
- <circle r="5" fill="#55E5FF" filter="url(#glow)" stroke="none"><animate attributeName="cx" values="-214;214;-214" dur="14s" repeatCount="indefinite"/><animate attributeName="cy" values="0;0;0" dur="14s" repeatCount="indefinite"/></circle>
- <circle r="5" fill="#64F0C4" filter="url(#glow)" stroke="none"><animate attributeName="cx" values="180;-180;180" dur="18s" repeatCount="indefinite"/><animate attributeName="cy" values="0;0;0" dur="18s" repeatCount="indefinite"/></circle>
-</g>
-<!-- Hero floating crystal -->
-<g class="float1" filter="url(#shadow)">
- <g transform="translate(962 256)">
-  <path d="M0 -126L124 -63L0 0L-124 -63Z" fill="url(#glassTop)" stroke="#FFFFFF" stroke-opacity=".92" stroke-width="2"/>
-  <path d="M-124 -63L0 0V145L-124 82Z" fill="url(#glassLeft)" stroke="#C6D5FF" stroke-opacity=".86" stroke-width="2"/>
-  <path d="M0 0L124 -63V82L0 145Z" fill="url(#glassRight)" stroke="#E4CBFF" stroke-opacity=".9" stroke-width="2"/>
-  <path d="M0 -126V0M-124 -63L0 0L124 -63M0 0V145" fill="none" stroke="#FFFFFF" stroke-opacity=".65" stroke-width="1.6"/>
-  <path d="M-82 -65L0 -108L82 -65L0 -22Z" fill="none" stroke="#FFFFFF" stroke-opacity=".5" stroke-width="1.3"/>
-  <path d="M-82 -37V57L0 103L82 57V-37" fill="none" stroke="#FFFFFF" stroke-opacity=".34" stroke-width="1.2"/>
-  <path d="M-46 -44L0 -68L46 -44L0 -20Z" fill="#111D38" fill-opacity=".28" stroke="#FFFFFF" stroke-opacity=".68"/>
-  <circle cx="0" cy="-43" r="17" fill="#55E5FF" opacity=".88" filter="url(#glow)"><animate attributeName="r" values="13;19;13" dur="3.8s" repeatCount="indefinite"/></circle>
-  <circle cx="0" cy="-43" r="5.5" fill="#FFFFFF"/>
-  <path d="M-53 21L0 49L53 21M-53 48L0 76L53 48" stroke="#FFFFFF" stroke-opacity=".43" stroke-width="2" fill="none"/>
- </g>
-</g>
-<!-- Glass hologram labels -->
-<g class="float2" filter="url(#shadow)">
- <rect x="720" y="117" width="150" height="44" rx="12" fill="#111D38" fill-opacity=".94" stroke="#27365A"/>
- <circle cx="739" cy="139" r="4.5" fill="#64F0C4"/><text x="753" y="143" class="mono" font-size="11" fill="#F4F7FF">NEXT.JS</text>
-</g>
-<g class="float1" filter="url(#shadow)">
- <rect x="1095" y="136" width="132" height="44" rx="12" fill="#111D38" fill-opacity=".94" stroke="#27365A"/>
- <circle cx="1114" cy="158" r="4.5" fill="#8494FF"/><text x="1128" y="162" class="mono" font-size="11" fill="#F4F7FF">FLUTTER</text>
-</g>
-<g class="float2" filter="url(#shadow)">
- <rect x="1096" y="411" width="132" height="44" rx="12" fill="#111D38" fill-opacity=".94" stroke="#27365A"/>
- <circle cx="1115" cy="433" r="4.5" fill="#C18BFF"/><text x="1129" y="437" class="mono" font-size="11" fill="#F4F7FF">APPLIED AI</text>
-</g>
-<!-- Mini glass prisms -->
-<g class="float2" filter="url(#shadow)" transform="translate(770 292) scale(.39)">
- <path d="M0 -75L75 -38L0 0L-75 -38Z" fill="url(#glassTop)" stroke="#FFFFFF" stroke-opacity=".9"/>
- <path d="M-75 -38L0 0V86L-75 48Z" fill="url(#glassLeft)" stroke="#FFFFFF" stroke-opacity=".75"/>
- <path d="M0 0L75 -38V48L0 86Z" fill="url(#glassRight)" stroke="#FFFFFF" stroke-opacity=".82"/>
-</g>
-<g class="float1" filter="url(#shadow)" transform="translate(1153 329) scale(.27)">
- <path d="M0 -75L75 -38L0 0L-75 -38Z" fill="url(#glassTop)" stroke="#FFFFFF" stroke-opacity=".9"/>
- <path d="M-75 -38L0 0V86L-75 48Z" fill="url(#glassLeft)" stroke="#FFFFFF" stroke-opacity=".75"/>
- <path d="M0 0L75 -38V48L0 86Z" fill="url(#glassRight)" stroke="#FFFFFF" stroke-opacity=".82"/>
-</g>
-<!-- Light trails and particles -->
-<g fill="none" stroke="url(#neon)" stroke-width="2" opacity=".72">
- <path d="M820 342L768 382L768 404"/><path d="M1082 280L1198 280L1220 302"/><path d="M909 126L909 91L941 70"/>
-</g>
-<g fill="#55E5FF" filter="url(#glow)"><circle cx="768" cy="404" r="3"/><circle cx="1220" cy="302" r="3"/><circle cx="941" cy="70" r="3"/></g>
-<g class="softpulse" fill="#64F0C4"><circle cx="694" cy="96" r="2.5"/><circle cx="1195" cy="224" r="2.5"/><circle cx="696" cy="386" r="2.5"/></g>
-<rect x="30" y="30" width="1220" height="2" fill="url(#neon)" opacity=".22"><animate attributeName="y" values="30;528;30" dur="17s" repeatCount="indefinite"/></rect>
 </svg>
