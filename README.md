@@ -45,7 +45,7 @@ Python, C, MySQL, Linux, networking fundamentals.
 
 - **[SynDx](https://github.com/Creater-jod/synDx)** — Healthcare research prototype. Contributor to [merged PR #1](https://github.com/Creater-jod/synDx/pull/1), with work across application, backend, data/ML and documentation.
 - **Ride Hub** — Flutter workshop-management app concept. [Project details](./projects/ride-hub/README.md)
-- **ColdCall Cloud · SAMG Infotech** — Internship contribution to a private cloud-calling CRM: UI refinements, backend self-protection and QA tests. [PR #12](https://github.com/gouthamsamg/coldcall-cloud/pull/12) · *Submitted for review; not yet merged.*
+- **ColdCall Cloud · SAMG Infotech** — Internship contribution as a **Software Developer** to a private cloud-calling CRM. [PR #12](https://github.com/gouthamsamg/coldcall-cloud/pull/12) · *Submitted for review; not yet merged.*
 
 ## Experience
 
