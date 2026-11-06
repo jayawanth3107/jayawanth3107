@@ -125,5 +125,5 @@ Sri Chaithaniya Techno School
 I'm interested in internships, entry-level software opportunities and collaborations around web products, application development, UI/UX and applied AI.
 
 <p align="center">
-  <a href="mailto:jayawanth3107@gmail.com"><img src="https://img.shields.io/badge/EMAIL-JAYAWANTH-087E78?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Jayawanth"></a>
+  <a href="mailto:jayawanth3107@gmail.com"><img src="https://img.shields.io/badge/EMAIL-jayawanth3107%40gmail.com-087E78?style=for-the-badge&logo=gmail&logoColor=white" alt="Email: jayawanth3107@gmail.com"></a>
 </p>
