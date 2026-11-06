@@ -55,13 +55,15 @@ A technician-focused app concept that brings daily service tasks, vehicle detail
 [Project documentation](./projects/ride-hub/README.md) · [UI/UX case study](./case-studies/ride-hub.md)
 
 ### 03 — ColdCall Cloud · SAMG Infotech
-**Software Development Internship · Company-owned team product**
+**Software Development Internship · Company-owned cloud-calling and CRM product**
 
-Working with the SAMG Infotech team on a cloud-calling and CRM web product. My internship portfolio focus includes reviewing application workflows, evaluating interface usability, identifying UI issues and documenting improvement opportunities.
+Contributed to a review-and-improvement effort for SAMG Infotech's private ColdCall Cloud application. The work focused on understanding an existing codebase, finding usability and quality issues, implementing selected improvements, and preparing the changes for engineering review.
 
-- **Role:** Software Development Intern
-- **Project ownership:** SAMG Infotech / team-owned product
-- **Source code:** Private company repository; not published as an independent personal project.
+- **Product areas reviewed:** dashboard, dialer workspace, records, team management and settings.
+- **Implemented contributions:** interface and responsive-navigation refinements, clearer dashboard information, more responsible dialer scripts, and a backend guard against administrators disabling or removing their own workspace membership.
+- **QA work:** documented findings and evidence; added focused unit tests for role rules, membership self-protection, phone normalization, timezone resolution and calling-window helpers.
+- **Review status:** proposed changes submitted to the company's original repository for team review; they have not been represented as merged or production-deployed.
+- **Project ownership:** SAMG Infotech. The source code is private and is not presented as an independently owned personal project.
 
 ## Design case studies
 
@@ -74,15 +76,15 @@ I document the reason behind interface decisions, the main user journeys, the sy
 
 | Focus | Technologies and foundations |
 |---|---|
-| Web development | Next.js, HTML5, CSS3 |
+| Web development | React, Next.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS |
+| Backend and data | Node.js, PostgreSQL, Prisma, MySQL, SQL fundamentals |
 | App development | Flutter |
 | Programming | Python, C |
-| Data | MySQL, SQL fundamentals |
 | Systems | Linux, Windows |
 | Networking | IP addressing, subnetting, routing and switching |
-| Workflow | Git, GitHub, debugging and documentation |
+| Workflow | Git, GitHub, debugging, testing and technical documentation |
 
-**How to read this list:** Next.js and Flutter are technologies used in project work. Python, C, MySQL, Linux and networking are part of my current foundations; I keep improving them through practical work.
+**How to read this list:** React, Next.js, TypeScript, Node.js, PostgreSQL and Prisma reflect technologies used while contributing to project work. Flutter is used in the Ride Hub app concept. Python, C, MySQL, Linux and networking are part of my current foundations; I keep strengthening them through practical work.
 
 ## Collaboration and engineering evidence
 
@@ -91,6 +93,10 @@ My most visible team-collaboration record is [SynDx PR #1](https://github.com/Cr
 I enjoy collaborating on practical software, learning from code review, and improving the quality of both the user experience and implementation.
 
 ## Experience
+
+**Software Development Intern — SAMG Infotech**
+
+Contributed to analysis, UI/UX refinement, selected backend safeguards, focused tests and QA documentation for the company's private ColdCall Cloud product. Submitted proposed changes for team review; final acceptance and release remain with the company.
 
 **App Development Intern — Dextra Technologies, Chennai**
 
