@@ -9,7 +9,7 @@
 <p align="center"><strong>FULL-STACK DEVELOPMENT · UI/UX DESIGN · APPLIED AI</strong></p>
 
 <p align="center">
-  I'm <strong>J. Jayawanth</strong>, a Diploma student at PSG Polytechnic College, Coimbatore (2025–2027), interested in building useful web and mobile applications.
+  I'm <strong>J. Jayawanth</strong>, a Diploma in Computer Networking student at PSG Polytechnic College, Coimbatore (2025–2027), interested in building web and mobile applications.
 </p>
 
 <div align="center">
@@ -27,25 +27,30 @@
 
 ## Tech Stack
 
+**Used in projects**
+
 | Area | Technologies |
 |---|---|
 | Frontend | React, Next.js, TypeScript, JavaScript, HTML, CSS, Tailwind CSS |
 | Backend | Node.js, Express.js, REST APIs |
-| Databases & ORM | PostgreSQL, MySQL, SQLite, Prisma |
-| App Development | Flutter |
-| Programming | Python, C |
-| Tools & Systems | Git, GitHub, Linux, Windows |
+| Data | PostgreSQL, SQLite, Prisma |
+| Mobile | Flutter |
+| Tools | Git, GitHub |
+
+**Foundations / currently developing**
+
+Python, C, MySQL, Linux, networking fundamentals.
 
 ## Selected Work
 
-- **[SynDx](https://github.com/Creater-jod/synDx)** — Healthcare research prototype; contributor to [merged PR #1](https://github.com/Creater-jod/synDx/pull/1). Worked across application, backend, data/ML and documentation.
-- **Ride Hub** — Flutter app concept for workshop technicians, with task tracking, service history and invoice workflows. [Project details](./projects/ride-hub/README.md)
-- **ColdCall Cloud · SAMG Infotech** — Internship contribution to a private cloud-calling CRM: UI refinements, backend self-protection and QA tests. [Contribution PR #12](https://github.com/gouthamsamg/coldcall-cloud/pull/12) · *Submitted for review; not represented as merged.*
+- **[SynDx](https://github.com/Creater-jod/synDx)** — Healthcare research prototype. Contributor to [merged PR #1](https://github.com/Creater-jod/synDx/pull/1), with work across application, backend, data/ML and documentation.
+- **Ride Hub** — Flutter workshop-management app concept. [Project details](./projects/ride-hub/README.md)
+- **ColdCall Cloud · SAMG Infotech** — Internship contribution to a private cloud-calling CRM: UI refinements, backend self-protection and QA tests. [PR #12](https://github.com/gouthamsamg/coldcall-cloud/pull/12) · *Submitted for review; not yet merged.*
 
 ## Experience
 
-- **Software Development Intern — SAMG Infotech:** ColdCall Cloud application analysis, UI/UX improvements, backend safeguards and QA.
-- **App Development Intern — Dextra Technologies, Chennai:** Completed an application development internship.
+- **Software Development Intern — SAMG Infotech:** Existing application analysis, UI/UX improvements, backend safeguards and QA.
+- **App Development Intern — Dextra Technologies, Chennai:** Application development internship.
 
 ## Education
 
