@@ -8,6 +8,10 @@
 
 <p align="center"><strong>FULL-STACK DEVELOPER · UI/UX DESIGNER · AI ENTHUSIAST</strong></p>
 
+<p align="center">
+  I'm <strong>J. Jayawanth</strong>, a final-year Diploma student and aspiring software engineer from Coimbatore, India. I build practical digital products across <strong>full-stack development, UI/UX design and applied AI</strong>—combining thoughtful interfaces, working application features and careful engineering.
+</p>
+
 <div align="center">
   <a href="#selected-work">SELECTED WORK</a> &nbsp;·&nbsp;
   <a href="#design-case-studies">DESIGN CASE STUDIES</a> &nbsp;·&nbsp;
