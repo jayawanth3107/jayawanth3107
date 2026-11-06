@@ -16,7 +16,7 @@
 </div>
 
 <p align="center">
-  <a href="mailto:jayawanth3107@gmail.com"><img src="https://img.shields.io/badge/EMAIL-LET'S%20CONNECT-087E78?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="mailto:jayawanth3107@gmail.com"><img src="https://img.shields.io/badge/EMAIL-jayawanth3107%40gmail.com-087E78?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://github.com/jayawanth3107"><img src="https://img.shields.io/badge/GITHUB-jayawanth3107-17243A?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
   <img src="https://img.shields.io/badge/BASED%20IN-COIMBATORE%2C%20INDIA-426B8C?style=flat-square" alt="Coimbatore, India">
 </p>
