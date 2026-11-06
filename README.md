@@ -2,101 +2,93 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./light.svg">
-    <img src="./light.svg" alt="J. Jayawanth — Full-Stack Developer, UI/UX Designer and AI Enthusiast" width="100%">
+    <img src="./light.svg" alt="J. Jayawanth — Full-stack developer, UI/UX designer and AI enthusiast" width="100%">
   </picture>
 </div>
 
 <div align="center">
-
-  **FULL-STACK DEVELOPER · UI/UX DESIGNER · AI ENTHUSIAST**
-
-  <a href="mailto:jayawanth3107@gmail.com"><img src="https://img.shields.io/badge/EMAIL-GET%20IN%20TOUCH-0C91B8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://github.com/jayawanth3107"><img src="https://img.shields.io/badge/GITHUB-jayawanth3107-171923?style=for-the-badge&logo=github" alt="GitHub"></a>
-  <img src="https://img.shields.io/badge/LOCATION-COIMBATORE%2C%20INDIA-0A9D83?style=for-the-badge" alt="Location">
-
+  <a href="#selected-work">SELECTED WORK</a> &nbsp;·&nbsp;
+  <a href="#design-case-studies">DESIGN CASE STUDIES</a> &nbsp;·&nbsp;
+  <a href="#engineering-toolkit">ENGINEERING TOOLKIT</a> &nbsp;·&nbsp;
+  <a href="#contact">CONTACT</a>
 </div>
 
-## Profile
+<p align="center">
+  <a href="mailto:jayawanth3107@gmail.com"><img src="https://img.shields.io/badge/EMAIL-LET'S%20CONNECT-087E78?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://github.com/jayawanth3107"><img src="https://img.shields.io/badge/GITHUB-jayawanth3107-17243A?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+  <img src="https://img.shields.io/badge/BASED%20IN-COIMBATORE%2C%20INDIA-426B8C?style=flat-square" alt="Coimbatore, India">
+</p>
 
-I'm **J. Jayawanth**, a final-year **Diploma in Computer Networking** student at **PSG Polytechnic College, Coimbatore** (2025–2027).
+## About
 
-I enjoy working across the software product lifecycle — understanding a problem, shaping the user experience, building the interface, and exploring the engineering behind it. My interests bring together **full-stack development, UI/UX design, applied AI, and computer networks**.
+I'm **J. Jayawanth**, a final-year Diploma in Computer Networking student at **PSG Polytechnic College, Coimbatore** (2025–2027), building toward a career in software engineering.
 
-I like building practical products, experimenting with new technologies, and continuously improving how software looks, feels, and works.
+I work across the product journey: understanding a problem, shaping the interface, building application experiences, and thinking through the engineering behind them. My interests span **full-stack development, UI/UX design, applied AI, and software systems**.
 
-## What I work on
+I value useful products, clear interfaces, maintainable implementation, and honest technical claims.
 
-| Area | Focus |
+## Selected work
+
+### 01 — SynDx
+**Offline-first clinical decision-support research prototype**
+
+A team project exploring how structured clinical intake, offline workflows, clinician review and a narrow Wilson-disease phenotype research model can fit into one software system.
+
+- **My involvement:** collaborator and author of [merged pull request #1](https://github.com/Creater-jod/synDx/pull/1), opened under the GitHub account **jayawanth3107**.
+- **Engineering:** the PR records 5 commits and 356 changed files across application, backend, data/ML pipeline, tests and documentation.
+- **Technical focus:** PWA workflows, Node.js/Express, SQLite, Python/FastAPI, model evaluation and safety boundaries.
+- **Important scope:** a research prototype, not a clinically validated diagnostic product.
+
+[Project repository](https://github.com/Creater-jod/synDx) · [My merged contribution](https://github.com/Creater-jod/synDx/pull/1) · [Technical case study](./case-studies/syndx.md)
+
+### 02 — Ride Hub
+**Flutter workshop technician and service-management app**
+
+A technician-focused app concept that brings daily service tasks, vehicle details, progress tracking, service history, invoice actions and profile management into one workflow.
+
+- **Product experience:** dashboard, task details, history and profile.
+- **Interaction design:** task status and progress visibility, simple navigation, invoice/print and re-book actions.
+- **Technology:** Flutter.
+
+[Project documentation](./projects/ride-hub/README.md) · [UI/UX case study](./case-studies/ride-hub.md)
+
+### 03 — Cold Call Cloud
+**Cloud calling and CRM web platform**
+
+A Next.js-based web product focused on cloud-calling and customer relationship workflows. My work around this product has strengthened my interest in responsive web interfaces, product usability and full-stack engineering.
+
+## Design case studies
+
+I document the reason behind interface decisions, the main user journeys, the system constraints and what should be tested—not just screenshots.
+
+- [Ride Hub — technician workflow and service history](./case-studies/ride-hub.md)
+- [SynDx — low-connectivity clinical workflow and human review](./case-studies/syndx.md)
+
+## Engineering toolkit
+
+| Focus | Technologies and foundations |
 |---|---|
-| Full-stack development | Web application development with Next.js and modern web fundamentals |
-| UI/UX design | User flows, interface structure, usability, responsive layouts and visual design |
-| AI & machine learning | AI product exploration, healthcare use cases, federated-learning concepts and explainability |
-| Software engineering | Problem solving, application architecture, debugging and clean code |
-| Networking & systems | IP addressing, subnetting, routing, switching, Linux and Windows fundamentals |
-| App development | Flutter-based application development and mobile-oriented workflows |
+| Web development | Next.js, HTML5, CSS3 |
+| App development | Flutter |
+| Programming | Python, C |
+| Data | MySQL, SQL fundamentals |
+| Systems | Linux, Windows |
+| Networking | IP addressing, subnetting, routing and switching |
+| Workflow | Git, GitHub, debugging and documentation |
 
-## Technology toolkit
+**How to read this list:** Next.js and Flutter are technologies used in project work. Python, C, MySQL, Linux and networking are part of my current foundations; I keep improving them through practical work.
 
-<div align="center">
+## Collaboration and engineering evidence
 
-  **Web & product development**
+My most visible team-collaboration record is [SynDx PR #1](https://github.com/Creater-jod/synDx/pull/1), which was merged on **17 September 2026**. It is a verifiable contribution trail—not a claim that I independently own the entire team repository.
 
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter">
-
-  **Programming & data**
-
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
-
-  **Systems & developer tools**
-
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
-  <img src="https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-
-</div>
-
-<sub>Skill levels are intentionally not overstated: Python, C, MySQL, Linux and networking are part of my current foundations; Next.js and Flutter are technologies I've used in projects.</sub>
-
-## Selected projects
-
-### 01 · Cold Call Cloud
-**Cloud calling & CRM web platform**
-
-A software product focused on cloud-based calling workflows and customer relationship management. My work and product exploration include web experience design and platform functionality.
-
-- **Technology confirmed:** Next.js
-- **Focus:** product UI, web development, user workflows and platform experience.
-- **Project stage:** ongoing / evolving.
-
-### 02 · SynDx
-**AI-focused healthcare technology project**
-
-A healthcare AI project exploring rare-disease intelligence and privacy-aware medical-data workflows.
-
-- **Focus areas:** rare-disease use cases, federated-learning concepts, explainable AI and clinical decision-support workflows.
-- **Project goal:** explore how AI can support healthcare research while respecting medical-data privacy.
-- **Project stage:** student research / prototype; not a clinically validated diagnostic product.
-
-### 03 · Ride Hub
-**Automobile workshop service management app**
-
-A Flutter application concept for organizing workshop technician workflows.
-
-- **Focus:** technician dashboard, task tracking, service history, profile and invoice flows.
-- **Technology:** Flutter project work.
-- **Project stage:** application development project.
+I enjoy collaborating on practical software, learning from code review, and improving the quality of both the user experience and implementation.
 
 ## Experience
 
 **App Development Intern — Dextra Technologies, Chennai**
 
-Completed an app development internship and gained exposure to application development workflows and practical software work.
+Completed an app development internship and gained practical exposure to application-development workflows.
 
 ## Education
 
@@ -109,11 +101,11 @@ Sai Vidhiya Nikethan
 **Secondary School**  
 Sri Chaithaniya Techno School
 
-## Beyond technology
+## Beyond software
 
 - **Languages:** Tamil and English.
-- **Sports:** Two divisional-level football wins and one state-level win.
-- **Interests:** building software products, interface design, AI technologies, networking and continuous learning.
+- **Football:** two divisional-level wins and one state-level win.
+- **Interests:** product building, interface craft, AI technologies, computer systems and continuous learning.
 
 ## GitHub activity
 
@@ -122,20 +114,14 @@ Sri Chaithaniya Techno School
 </div>
 
 <div align="center">
-
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=jayawanth3107&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&theme=transparent" alt="GitHub statistics">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jayawanth3107&layout=compact&hide_border=true&theme=transparent" alt="Most used languages">
-
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=jayawanth3107&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;rank_icon=github&amp;theme=transparent" alt="GitHub overview">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jayawanth3107&amp;layout=compact&amp;hide_border=true&amp;theme=transparent" alt="Most used languages">
 </div>
 
-## Let's connect
+## Contact
 
-I'm interested in collaborating on useful software, web products, UI/UX work, and applied AI projects.
+I'm interested in internships, entry-level software opportunities and collaborations around web products, application development, UI/UX and applied AI.
 
-<div align="center">
-
-  **Have an idea or opportunity? Let's build something meaningful.**
-
-  [![Email Jayawanth](https://img.shields.io/badge/EMAIL-JAYAWANTH-0C91B8?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jayawanth3107@gmail.com)
-
-</div>
+<p align="center">
+  <a href="mailto:jayawanth3107@gmail.com"><img src="https://img.shields.io/badge/EMAIL-JAYAWANTH-087E78?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Jayawanth"></a>
+</p>
